@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "lint": "next lint"
   },
   "homepage": "https://matheusfreitag.github.io/chernoff-faces-of-european-union/",
   "dependencies": {
