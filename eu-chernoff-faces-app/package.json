@@ -6,8 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
+  "homepage": "https://matheusfreitag.github.io/chernoff-faces-of-european-union/",
   "dependencies": {
     "browser-sync-webpack-plugin": "^2.3.0",
     "d3": "^7.8.5",
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "express": "^4.18.2",
+    "gh-pages": "^6.0.0",
     "http": "^0.0.1-security"
   }
 }
