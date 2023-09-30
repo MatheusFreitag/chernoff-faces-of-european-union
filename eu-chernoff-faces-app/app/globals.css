@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #ffce84;
+  filter: sepia(30%);
+  min-height: 100vh;
+}
+
+b {
+  background-color: #a07654;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 100;
+}
+
+a {
+  color: brown;
+  position: relative; /* Make it relative to the link */
+  text-decoration: underline; /* Remove the default underline */
+  margin-right: 15px;
+}
+
+/* Style for the arrow icon */
+a::after {
+  content: '\2197'; /* Unicode arrow character (up-right arrow) */
+  position: absolute;
+  font-size: 0.5rem; /* Adjust the size of the arrow as needed */
+}
+
+ul > li {
+  padding: 1rem 2rem 1rem 4rem;
+  width: 80%;
+  text-decoration: none;
+  margin: 1rem auto;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+@media (max-width: 767px) {
+  ul > li {
+    padding: 1rem 0;
+  }
+}

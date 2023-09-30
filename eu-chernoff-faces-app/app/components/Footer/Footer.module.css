@@ -1,0 +1,15 @@
+.footerWrapper {
+  border-top: 1px solid #a55719aa;
+  margin: 4rem auto 2rem auto;
+  padding: 1rem 0;
+}
+
+.footerParagraph {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 767px) {
+  .footerWrapper {
+    padding: 1rem;
+  }
+}

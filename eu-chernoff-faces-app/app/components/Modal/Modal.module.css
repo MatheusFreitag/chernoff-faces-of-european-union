@@ -1,0 +1,88 @@
+.modalContent {
+  display: inline-block;
+  position: fixed;
+  top: 2rem;
+  font-family: "AB-Regular";
+  padding: 1rem;
+  width: 40%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #ffdead;
+  border: 2px solid #a55719;
+  transition: all 0.2s ease-in;
+}
+
+.modalVisible {
+  left: 30%;
+  transition: all 0.2s ease-in;
+}
+
+.modalHidden {
+  left: -50%;
+  transition: all 0.2s ease-in;
+}
+
+.closeButton {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  transition: all 50ms ease-in;
+}
+
+.closeButton:hover {
+  background-color: #a55719;
+  color: white;
+  border: 1px solid #a55719;
+}
+
+.modalChernoffFaceContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.modal_countryName {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 1rem auto;
+  font-family: "AB-ExtraBold";
+  font-size: 1.7rem;
+  border-bottom: 1px solid #a55719aa;
+}
+
+.modal_generalDescriptions {
+  font-size: 1.2rem;
+}
+
+.modal_generalDescriptions > p {
+  padding: 0.5rem 0;
+}
+
+.modal_generalDescriptions > * > b {
+  font-size: 1.2rem;
+  background-color: #a07654;
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 100;
+  white-space: nowrap;
+}
+
+/* Styles for screens with a maximum width of 467px or less */
+@media (max-width: 767px) {
+  .modalContent {
+    width: 80%;
+  }
+  .modalHidden {
+    left: -100%;
+  }
+
+  .modalVisible {
+    left: 5%;
+    transition: all 0.2s ease-in;
+  }
+}

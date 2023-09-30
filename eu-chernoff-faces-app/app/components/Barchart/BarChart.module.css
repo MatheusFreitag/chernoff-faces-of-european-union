@@ -1,0 +1,9 @@
+.container {
+  fill: #a55719;
+}
+
+@media (max-width: 767px) {
+  .container {
+    transform: scale(0.6);
+  }
+}

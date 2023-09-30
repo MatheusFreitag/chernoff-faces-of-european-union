@@ -1,0 +1,449 @@
+.face {
+  display: inline-block;
+  position: absolute;
+  cursor: pointer;
+}
+
+.modalChernoffFace {
+  transform: scale(1);
+  display: block;
+  margin: 2rem 0 1rem 0;
+}
+
+.trialFace {
+  transform: scale(0.8);
+  display: inline-block;
+}
+
+/* Styles for screens with a maximum width of 767px or less */
+@media (max-width: 767px) {
+  .face {
+    transform: scale(0.3);
+  }
+
+  .trialFace {
+    transform: scale(0.8);
+    display: inline-block;
+  }
+
+  .Austria {
+    top: 396px;
+    left: 369px;
+  }
+
+  .Belgium {
+    top: 353px;
+    left: 256px;
+  }
+
+  .Bulgaria {
+    top: 458px;
+    left: 487px;
+  }
+
+  .Croatia {
+    top: 456px;
+    left: 381px;
+  }
+
+  .Cyprus {
+    top: 555px;
+    left: 623px;
+  }
+
+  .Czechia {
+    top: 360px;
+    left: 370px;
+  }
+
+  .Denmark {
+    top: 269px;
+    left: 314px;
+  }
+
+  .Estonia {
+    top: 213px;
+    left: 441px;
+  }
+
+  .Finland {
+    top: 155px;
+    left: 428px;
+  }
+
+  .France {
+    top: 405px;
+    left: 246px;
+  }
+
+  .Germany {
+    top: 333px;
+    left: 328px;
+  }
+
+  .Greece {
+    top: 503px;
+    left: 470px;
+  }
+
+  .Hungary {
+    top: 405px;
+    left: 413px;
+  }
+
+  .Ireland {
+    top: 294px;
+    left: 150px;
+  }
+
+  .Italy {
+    top: 466px;
+    left: 338px;
+  }
+
+  .Latvia {
+    top: 242px;
+    left: 423px;
+  }
+
+  .Lithuania {
+    top: 272px;
+    left: 440px;
+  }
+
+  .Luxembourg {
+    top: 376px;
+    left: 285px;
+  }
+
+  .Malta {
+    top: 563px;
+    left: 398px;
+  }
+
+  .Netherlands {
+    top: 316px;
+    left: 272px;
+  }
+
+  .Poland {
+    top: 320px;
+    left: 400px;
+  }
+
+  .Portugal {
+    top: 480px;
+    left: 107px;
+  }
+
+  .Romania {
+    top: 407px;
+    left: 476px;
+  }
+
+  .Slovakia {
+    top: 371px;
+    left: 414px;
+  }
+
+  .Slovenia {
+    top: 431px;
+    left: 355px;
+  }
+
+  .Spain {
+    top: 493px;
+    left: 162px;
+  }
+
+  .Sweden {
+    top: 180px;
+    left: 355px;
+  }
+}
+/* Styles for screens greater than 767px and less than or equal to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mapImage {
+    width: 754px;
+  }
+
+  .face {
+    transform: scale(0.3);
+  }
+
+  .Austria {
+    top: 348px;
+    left: 332px;
+  }
+
+  .Belgium {
+    top: 307px;
+    left: 222px;
+  }
+
+  .Bulgaria {
+    top: 407px;
+    left: 436px;
+  }
+
+  .Croatia {
+    top: 406px;
+    left: 341px;
+  }
+
+  .Cyprus {
+    top: 485px;
+    left: 554px;
+  }
+
+  .Czechia {
+    top: 316px;
+    left: 327px;
+  }
+
+  .Denmark {
+    top: 232px;
+    left: 276px;
+  }
+
+  .Estonia {
+    top: 182px;
+    left: 391px;
+  }
+
+  .Finland {
+    top: 140px;
+    left: 387px;
+  }
+
+  .France {
+    top: 365px;
+    left: 206px;
+  }
+
+  .Germany {
+    top: 293px;
+    left: 288px;
+  }
+
+  .Greece {
+    top: 458px;
+    left: 410px;
+  }
+
+  .Hungary {
+    top: 358px;
+    left: 372px;
+  }
+
+  .Ireland {
+    top: 264px;
+    left: 129px;
+  }
+
+  .Italy {
+    top: 436px;
+    left: 326px;
+  }
+
+  .Latvia {
+    top: 212px;
+    left: 373px;
+  }
+
+  .Lithuania {
+    top: 240px;
+    left: 390px;
+  }
+
+  .Luxembourg {
+    top: 336px;
+    left: 255px;
+  }
+
+  .Malta {
+    top: 497px;
+    left: 354px;
+  }
+
+  .Netherlands {
+    top: 270px;
+    left: 238px;
+  }
+
+  .Poland {
+    top: 280px;
+    left: 360px;
+  }
+
+  .Portugal {
+    top: 443px;
+    left: 82px;
+  }
+
+  .Romania {
+    top: 363px;
+    left: 425px;
+  }
+
+  .Slovakia {
+    top: 326px;
+    left: 377px;
+  }
+
+  .Slovenia {
+    top: 377px;
+    left: 311px;
+  }
+
+  .Spain {
+    top: 443px;
+    left: 142px;
+  }
+
+  .Sweden {
+    top: 140px;
+    left: 316px;
+  }
+}
+/* Styles for screens greater than 1024px */
+@media (min-width: 1025px) {
+  .face {
+    transform: scale(0.35);
+  }
+
+  .Austria {
+    top: 490px;
+    left: 456px;
+  }
+
+  .Belgium {
+    top: 440px;
+    left: 322px;
+  }
+
+  .Bulgaria {
+    top: 562px;
+    left: 600px;
+  }
+
+  .Croatia {
+    top: 559px;
+    left: 481px;
+  }
+
+  .Cyprus {
+    top: 675px;
+    left: 761px;
+  }
+
+  .Czechia {
+    top: 449px;
+    left: 457px;
+  }
+
+  .Denmark {
+    top: 352px;
+    left: 386px;
+  }
+
+  .Estonia {
+    top: 262px;
+    left: 551px;
+  }
+
+  .Finland {
+    top: 210px;
+    left: 532px;
+  }
+
+  .France {
+    top: 515px;
+    left: 306px;
+  }
+
+  .Germany {
+    top: 413px;
+    left: 399px;
+  }
+
+  .Greece {
+    top: 628px;
+    left: 560px;
+  }
+
+  .Hungary {
+    top: 501px;
+    left: 523px;
+  }
+
+  .Ireland {
+    top: 364px;
+    left: 199px;
+  }
+
+  .Italy {
+    top: 590px;
+    left: 439px;
+  }
+
+  .Latvia {
+    top: 302px;
+    left: 536px;
+  }
+
+  .Lithuania {
+    top: 340px;
+    left: 543px;
+  }
+
+  .Luxembourg {
+    top: 469px;
+    left: 357px;
+  }
+
+  .Malta {
+    top: 693px;
+    left: 484px;
+  }
+
+  .Netherlands {
+    top: 394px;
+    left: 342px;
+  }
+
+  .Poland {
+    top: 400px;
+    left: 500px;
+  }
+
+  .Portugal {
+    top: 593px;
+    left: 132px;
+  }
+
+  .Romania {
+    top: 505px;
+    left: 586px;
+  }
+
+  .Slovakia {
+    top: 462px;
+    left: 517px;
+  }
+
+  .Slovenia {
+    top: 528px;
+    left: 451px;
+  }
+
+  .Spain {
+    top: 603px;
+    left: 212px;
+  }
+
+  .Sweden {
+    top: 230px;
+    left: 440px;
+  }
+}

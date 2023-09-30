@@ -1,0 +1,89 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+  max-width: 70ch;
+  height: 10.8rem;
+  background-color: #ffdead;
+  margin: 1rem auto;
+  outline: 7px solid #ffce84;
+  box-shadow: 0 0 0 9px #ffdead;
+  padding: 2rem 0;
+}
+
+.wrapperWith3Columns {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapperWith2Columns {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wrapperWith3Columns > *,
+.wrapperWith2Columns > * {
+  justify-self: center;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.wrapperWith3Columns > :nth-child(1),
+.wrapperWith3Columns > :nth-child(2),
+.wrapperWith3Columns > :nth-child(3) {
+  align-self: end;
+}
+
+.wrapperWith3Columns > :nth-child(4),
+.wrapperWith3Columns > :nth-child(5),
+.wrapperWith3Columns > :nth-child(6) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.wrapperWith2Columns > :nth-child(1),
+.wrapperWith2Columns > :nth-child(2) {
+  align-self: end;
+}
+
+.wrapperWith2Columns > :nth-child(4),
+.wrapperWith2Columns > :nth-child(5) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.frameDescription {
+  text-align: center;
+  font-style: italic;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Styles for screens with a maximum width of 390px or less */
+@media (max-width: 767px) {
+  .wrapper {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .wrapperWith3Columns {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .wrapperWith2Columns {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wrapperWith3Columns > *,
+  .wrapperWith2Columns > * {
+    padding: 0;
+  }
+
+  .frameDescription {
+    width: 90%;
+  }
+}

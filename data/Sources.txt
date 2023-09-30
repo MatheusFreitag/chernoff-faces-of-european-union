@@ -1,0 +1,13 @@
+Sources
+
+Obesity: https://ourworldindata.org/grapher/share-of-adults-defined-as-obese?region=Europe
+
+Cocaine: https://ourworldindata.org/grapher/death-rates-cocaine?region=Europe
+
+UV Radiation: https://www.who.int/data/gho/indicator-metadata-registry/imr-details/2395
+
+Happiness: https://ourworldindata.org/grapher/Happiness-WVS-vs-Gallup
+
+Corruption: https://ourworldindata.org/corruption
+
+Cocaine Death Rate: https://ourworldindata.org/grapher/death-rates-cocaine?region=Europe

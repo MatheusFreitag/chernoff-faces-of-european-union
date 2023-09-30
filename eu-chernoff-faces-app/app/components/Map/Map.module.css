@@ -1,0 +1,19 @@
+.mapImage {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+/* Styles for screens with a maximum width of 767px or less */
+@media (max-width: 767px) {
+  .mapImage {
+    width: 250%;
+  }
+}
+
+/* Styles for screens greater than 767px and less than or equal to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+/* Styles for screens greater than 1024px */
+@media (min-width: 1025px) {
+}
