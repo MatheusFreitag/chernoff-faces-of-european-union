@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'AB-Regular';
-  src: url('../public/typography/AbhayaLibre-Regular.ttf');
+  src: url('../public/Typography/AbhayaLibre-Medium.ttf');
 }
 @font-face {
   font-family: 'AB-Bold';
-  src: url('../public/typography/AbhayaLibre-Bold.ttf');
+  src: url('../public/Typography/AbhayaLibre-Bold.ttf');
 }
 @font-face {
   font-family: 'AB-ExtraBold';
-  src: url('../public/typography/AbhayaLibre-ExtraBold.ttf');
+  src: url('../public/Typography/AbhayaLibre-ExtraBold.ttf');
 }
 
 .mainWrapper {
