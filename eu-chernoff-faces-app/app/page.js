@@ -5,6 +5,7 @@ import Modal from './components/Modal/Modal';
 import Footer from './components/Footer/Footer';
 import BarChart from './components/Barchart/BarChart';
 import styles from './page.module.css';
+import Head from 'next/head';
 import { globalState } from './components/constants';
 import { useAppContext } from './contexts/appContext';
 import Image from 'next/image';
@@ -19,6 +20,45 @@ export default function Home() {
 
   return (
     <div className={styles.mainWrapper}>
+      <Head>
+        <title>(Chernoff) Faces of European Union</title>
+        <meta name='description' content='(Chernoff) Faces of European Union' />
+        <meta name='viewport' content='width=device-with, initial-scale=1' />
+
+        {/* Thumbnails */}
+        <meta
+          property='og:url'
+          content='https://chernoff-faces-of-european-union.vercel.app/'
+        />
+        <meta property='og:type' content='article' />
+        <meta property='og:title' content='Eleições Estaduais no Brasil' />
+        <meta
+          property='og:description'
+          content='(Chernoff) Faces of European Union'
+        />
+        <meta property='og:image' content='https://i.imgur.com/yQzZKDR.png' />
+
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta name='twitter:site' content='@matheusfreitag' />
+        <meta
+          property='og:url'
+          content='https://chernoff-faces-of-european-union.vercel.app/'
+        />
+        <meta
+          name='twitter:title'
+          content='(Chernoff) Faces of European Union'
+        />
+        <meta
+          name='twitter:description'
+          content='(Chernoff) Faces of European Union'
+        />
+        <meta name='twitter:image' content='https://i.imgur.com/yQzZKDR.png' />
+        <meta
+          name='twitter:image:alt'
+          content='(Chernoff) Faces of European Union'
+        />
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
       <main
         className={`${styles.main} ${isModalVisible ? styles.mainBlur : ''}`}
       >

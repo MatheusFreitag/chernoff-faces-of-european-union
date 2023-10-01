@@ -27,7 +27,10 @@ const Footer = () => {
       </p>
       <p className={styles.footerParagraph}>
         Code available in{' '}
-        <a href='' target='_blank'>
+        <a
+          href='https://github.com/MatheusFreitag/chernoff-faces-of-european-union'
+          target='_blank'
+        >
           Github.
         </a>
       </p>
