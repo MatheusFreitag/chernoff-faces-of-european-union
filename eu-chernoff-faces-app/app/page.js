@@ -30,6 +30,23 @@ export default function Home() {
           <span className={styles.subtitle}>An experiment</span>
         </h1>
         <p className={styles.authorName}>Written by Matheus Freitag</p>
+
+        <p className={styles.regularText}>
+          Let's start with the end! In this article we will explore how humans
+          are amazing in recognizing faces, specifically facial expressions, and
+          how we can use this hability to quickly interpret multiple domains of
+          data by turning them into a facial expression. Based on country-level
+          data from the 27 EU countries, we will use this technique to
+          algorithmically produce a facial expression for each nation. Further
+          explanations in the following sections. The end result of this
+          experiment can be seen in the map below.
+          <br />
+          <b>Faces on the map are clickable.</b>
+        </p>
+        <ChernoffMap />
+
+        <h2 className={styles.chapterTitle}>0. Context</h2>
+
         <p tabIndex={0} className={styles.regularText}>
           <i>Data</i>. One of the most trending words in modern times. If you
           ever dealt with data you probably realized that looking at tables full
@@ -61,21 +78,8 @@ export default function Home() {
           <i>Faces</i>.
         </p>
 
-        <h2 className={styles.chapterTitle}>1. Result</h2>
-        <p className={styles.regularText}>
-          Let's start with the end! In this article we will explore how humans
-          are amazing in recognizing faces, specifically facial expressions, and
-          how we can use this hability to quickly interpret multiple domains of
-          data by turning them into a facial expression. Based on national-level
-          data on EU countries we will use this technique to create a new map
-          for the European Union, with each coutnry having its own face. Further
-          explanations in the following sections.{' '}
-          <b>Faces on the map are clickable.</b>
-        </p>
-        <ChernoffMap />
-
         <h2 tabIndex={0} className={styles.chapterTitle}>
-          2. Introduction
+          1. Introduction
         </h2>
         <p tabIndex={0} className={styles.regularText}>
           Humans are amazing in recognizing faces. In fact, we are{' '}
@@ -124,7 +128,7 @@ export default function Home() {
           Faces" technique to something meaningful for me and others.
         </p>
         <h2 tabIndex={0} className={styles.chapterTitle}>
-          3. Motivation
+          2. Motivation
         </h2>
         <p tabIndex={0} className={styles.regularText}>
           Geopolitics is a personal topic of interest, and like many others, I
@@ -139,7 +143,7 @@ export default function Home() {
           the facial expressions that represent such nations. 
         </p>
         <h2 tabIndex={0} className={styles.chapterTitle}>
-          4. Constraints
+          3. Constraints
         </h2>
         <p tabIndex={0} className={styles.regularText}>
           We have from 20 to 43 muscles in the human face (depending on the
@@ -172,7 +176,7 @@ export default function Home() {
           avoiding the overload of our mental map.
         </p>
         <h2 tabIndex={0} className={styles.chapterTitle}>
-          5. Methodology
+          4. Methodology
         </h2>
         <p tabIndex={0} className={styles.regularText}>
           Multiple data domains were gathered in order to form the Chernoff
@@ -187,7 +191,7 @@ export default function Home() {
           attributes, as follows:
         </p>
         <h3 tabIndex={0} className={styles.chapterSubtitle}>
-          5.1. Perceived Corruption as Eyebrows
+          4.1. Perceived Corruption as Eyebrows
         </h3>
         <p tabIndex={0} className={styles.regularText}>
           The{' '}
@@ -222,7 +226,7 @@ export default function Home() {
           facesLabel2={'High Corruption Perception'}
         />
         <h3 className={styles.chapterSubtitle}>
-          5.2. Ilicit Drugs Deaths as Nose
+          4.2. Cocaine-related Death Rate as Nose
         </h3>
         <p tabIndex={0} className={styles.regularText}>
           The European Union has public data on
@@ -255,7 +259,7 @@ export default function Home() {
           facesLabel2={''}
         />
         <h3 className={styles.chapterSubtitle}>
-          5.3. Happiness Index as Mouth
+          4.3. Happiness Index as Mouth
         </h3>
         <p className={styles.regularText}>
           The World Happiness Report is a well-known source of cross-country
@@ -306,7 +310,7 @@ export default function Home() {
             </span>
           }
         />
-        <h3 className={styles.chapterSubtitle}>5.4. Obesity Index as Neck</h3>
+        <h3 className={styles.chapterSubtitle}>4.4. Obesity Index as Neck</h3>
         <p className={styles.regularText}>
           The World Health Organization provides data on{' '}
           <a
@@ -338,7 +342,7 @@ export default function Home() {
           }
           facesLabel2={''}
         />
-        <h3 className={styles.chapterSubtitle}>5.5. UV Exposure as Skin</h3>
+        <h3 className={styles.chapterSubtitle}>4.5. UV Exposure as Skin</h3>
         <p className={styles.regularText}>
           The World Health Organization also provides data on the average UV
           Radiation daily exposure in each country, measured in J/m2. For this
@@ -372,7 +376,7 @@ export default function Home() {
           }
         />
 
-        <h2 className={styles.chapterTitle}>6. Conclusion</h2>
+        <h2 className={styles.chapterTitle}>5. Conclusion</h2>
         <p className={styles.regularText}>
           It is fascinating how fast we can perceive a facial expression, and
           generating faces to comunicate data is a powerful tool that I plan to
