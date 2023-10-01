@@ -37,7 +37,10 @@ export default function Home() {
           property='og:description'
           content='EU Data mapped to Chernoff Faces'
         />
-        <meta property='og:image' content='https://i.imgur.com/yQzZKDR.png' />
+        <meta
+          property='og:image'
+          content='https://raw.githubusercontent.com/MatheusFreitag/chernoff-faces-of-european-union/main/eu-chernoff-faces-app/public/og_image.png'
+        />
 
         <meta name='twitter:card' content='summary_large_image' />
         <meta
@@ -56,7 +59,10 @@ export default function Home() {
           name='twitter:description'
           content='EU Data mapped to Chernoff Faces'
         />
-        <meta name='twitter:image' content='https://i.imgur.com/yQzZKDR.png' />
+        <meta
+          name='twitter:image'
+          content='https://raw.githubusercontent.com/MatheusFreitag/chernoff-faces-of-european-union/main/eu-chernoff-faces-app/public/og_image.png'
+        />
       </Head>
       <main
         className={`${styles.main} ${isModalVisible ? styles.mainBlur : ''}`}
