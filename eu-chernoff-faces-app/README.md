@@ -8,9 +8,9 @@ NextJS application presenting a multivariate data conversion into [Chernoff Face
 root
 │
 ├── 📁 data
-│   ├── 📄 Pipeline.ipynb  # Jupyter Notebook containing data processing pipeline
-│   └── 📄 ...      # helpers and data files
+│   ├── 📄 Pipeline.ipynb # Jupyter Notebook containing data processing pipeline
+│   └── 📄 ... # helpers and data files
 │
 └── 📁 eu-chernoff-faces-app
-    └── 📄 app            # NextJS application for displaying Chernoff Faces
+    └── 📄 app # NextJS application for displaying Chernoff Faces
 ```
