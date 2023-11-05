@@ -51,7 +51,7 @@ export default function Home() {
           <ChernoffMap />
 
           <h2 tabIndex={0} className={styles.chapterTitle}>
-            0. Context
+            Context
           </h2>
 
           <p tabIndex={0} className={styles.regularText}>
