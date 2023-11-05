@@ -41,8 +41,8 @@
 }
 
 .smallTitle {
-  font-size: 2rem;
-  line-height: 3.7rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
 }
 
 .title {
@@ -54,12 +54,11 @@
 }
 
 .subtitle {
-  text-align: center;
-  font-size: 2.125rem;
+  font-size: 1.5rem;
 }
 
 .authorName {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .cite {
@@ -112,16 +111,15 @@
 
 .regularText {
   font-size: 1.5rem;
-  line-height: 2rem;
+  line-height: 1.5;
   margin: 1.5rem auto;
-  text-align: justify;
+  text-align: left;
   padding: 0 1rem;
   max-width: 70ch;
 }
 
 .regularText::first-letter {
   font-size: 2.5rem;
-  padding-left: 2rem;
 }
 
 .chapterTitle {
@@ -150,8 +148,8 @@
   }
 
   .title {
-    font-family: 'AB-Bold';
-    font-size: 4rem;
+    font-family: 'AB-ExtraBold';
+    font-size: 3rem;
     line-height: 3rem;
     width: 95%;
     margin: 2.5% auto;
